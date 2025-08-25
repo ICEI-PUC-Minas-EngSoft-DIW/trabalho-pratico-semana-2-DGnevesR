@@ -14,13 +14,26 @@ header {
   text-align: center;
 }
 
+.container {
+  display: flex;
+  margin: 20px;
+}
+
+aside {
+  width: 280px;
+  background: #eaeaea;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
 .avatar {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   overflow: hidden;
-  margin: 10px auto 0;
-  border: 3px solid #ffffff;
+  margin: 0 auto 15px;
+  border: 3px solid #252627;
 }
 
 .avatar img {
@@ -30,26 +43,17 @@ header {
   transform: translateY(12px);
 }
 
-
-
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+aside h3 {
+  margin-top: 20px;
+  color: #252627;
 }
 
 main {
+  flex: 1;
+  background: white;
   padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
 footer {
